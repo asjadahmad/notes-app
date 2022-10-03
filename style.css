@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin-top: 60px;
+    max-width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    /* display: grid; */
+    /* grid-template-columns: repeat(auto-fit,max-content); */
+    /* flex-direction: column; */
+    /* justify-content: space-around; */
+    background-color: #A6DAE1;
+}
+.note{
+    /* display: inline; */
+    width: 300px;
+    height: 300px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+}
+
+.nav{
+   /* From https://css.glass */
+background: rgba(48, 95, 102, 0.51);
+/* border-radius: 16px; */
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(18.5px);
+-webkit-backdrop-filter: blur(18.5px);
+border: 1px solid rgba(48, 95, 102, 0.05);
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+    width: inherit;
+    /* background-color: red; */
+}
+
+i{
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 5px;
+    color: white;
+    cursor: pointer;
+
+}
+.add-note {
+    /* From https://css.glass */
+background: rgba(48, 95, 102, 0.48);
+/* border-radius: 16px; */
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(18.5px);
+-webkit-backdrop-filter: blur(18.5px);
+border: 1px solid rgba(26, 50, 54, 0.20);
+    position: fixed;
+    top: 10px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    /* background-color: white; */
+    /* border: none; */
+    padding: 10px 20px;
+    cursor: pointer;
+    right: 30px;
+    
+}
+.sav-note {
+    /* From https://css.glass */
+background: rgba(48, 95, 102, 0.48);
+/* border-radius: 16px; */
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(18.5px);
+-webkit-backdrop-filter: blur(18.5px);
+border: 1px solid rgba(26, 50, 54, 0.20);
+    position: fixed;
+    top: 10px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    /* background-color: white; */
+    /* border: none; */
+    padding: 10px 20px;
+    cursor: pointer;
+    right: 160px;
+    
+}
+
+textarea{
+    
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.73);
+/* border-radius: 16px; */
+box-shadow: 05px 5px 20px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(13.4px);
+-webkit-backdrop-filter: blur(13.4px);
+border: 1px solid rgba(255, 255, 255, 0.92);
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 5px;
+    resize: none;
+    outline: none;
+    border: none;
+    width: inherit;
+    height: inherit;
+}
+
+.store-note{
+    margin: 20px;
+}
+
